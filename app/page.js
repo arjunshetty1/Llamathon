@@ -146,7 +146,7 @@ export default function LandingPage() {
             {[
               { name: "Arjun Reddy", role: "E-commerce Business Owner", feedback: "This AI has transformed the way we handle customer support. The speed and accuracy are unparalleled!" },
               { name: "Aditya Roy", role: "SaaS Founder", feedback: "I was amazed by how human the interactions felt. Our customers love the 24/7 availability." },
-              { name: "Prathrana Sharma", role: "Freelance Designer", feedback: "It’s like having an extra team member who's always available and never tired. The AI learns so quickly!" },
+              { name: "Prarthana Sharma", role: "Freelance Designer", feedback: "It’s like having an extra team member who's always available and never tired. The AI learns so quickly!" },
             ].map((testimonial, index) => (
               <div key={index} className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
                 <p className="mb-4 text-gray-700">"{testimonial.feedback}"</p>
